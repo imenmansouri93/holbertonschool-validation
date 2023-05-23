@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/home/Holberton/holbertonschool-validation/module1_task0",
+	"sourceRoot": "/home/simonsays/holberton/holbertonschool-validation/module1_task0",
 	"sources": [
 		"ananke/css/main.css"
 	],
