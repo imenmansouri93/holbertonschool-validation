@@ -1,5 +1,3 @@
-
-
 package main
 
 import (
@@ -38,7 +36,7 @@ func HealthCheckHandler(w http.ResponseWriter, r *http.Request) {
   fmt.Println("HIT: healthcheck")
 
   // Write the string "ALIVE" into the response's body
-  _, _ = io.WriteString(w, "ALIVE")
+  io.WriteString(w, "ALIVE")
 
   // End of the function: return HTTP 200 by default
 }
